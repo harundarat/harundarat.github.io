@@ -76,6 +76,12 @@ params:
     Title: "harundarat"
     Content: Hello! Welcome to the jungle!
 
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
   socialIcons:
     - name: twitter
       url: "https://twitter.com/"
