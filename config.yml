@@ -121,7 +121,7 @@ params:
 menu:
   main:
     - identifier: search
-      name: Search
+      name: search
       url: search/
       weight: 10
     - identifier: categories
