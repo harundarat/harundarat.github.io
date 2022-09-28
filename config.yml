@@ -8,7 +8,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: UA-123-45
+googleAnalytics: 
 
 minify:
   disableXML: true
@@ -16,10 +16,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  title: harundarat
+  description: "Cara mengatasi masalah linux, windows, dan IT"
+  keywords: [linux,windows,IT,problem solving]
+  author: harundarat
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -73,8 +73,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "harundarat"
+    Content: Hello! Welcome to the jungle!
 
   socialIcons:
     - name: twitter
@@ -86,11 +86,11 @@ params:
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: ""
     bing:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: ""
     yandex:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: ""
 
   cover:
     hidden: true # hide everywhere but not in structured data
